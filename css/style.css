@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@500&family=Poppins:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+
+body{
+    background: #dfd5f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 120vh;
+}
+
+h1{
+    text-align: center;
+    color: #8b7fab;
+    text-shadow: 0 2px 2px rgb(158, 155, 152);
+    margin-bottom: 15px;
+}
+
+.container{
+    border: 3px solid #fff;
+    background-color: #d4c7f6;
+    border-radius: 10px;
+    padding: 30px 50px;
+    width: 1000px;
+    
+}
+
+.novatarefa{
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+}
+
+label {
+    padding: 5px;
+    color: #544658;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+input{
+    width: 100%;
+    margin-bottom: 7px;
+    font-size: 1rem;
+    border: 2px solid #b0a3d1;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+#botao{
+    flex:1;
+    border-radius: 5px;
+    font-size:1rem;
+    border:none;
+    background-color: #b0a3d1;
+    color: #fff;
+    padding: 16px;
+    cursor:pointer;
+}
+
+#ordenar{
+    flex:1;
+    border-radius: 5px;
+    font-size:1rem;
+    border:none;
+    background-color: #b0a3d1;
+    color: #fff;
+    padding: 16px;
+    cursor:pointer;
+    margin-top: 15px;
+}
+
+.tabelas{
+    background-color: #fff;
+    padding: 20px 20px;
+    margin-top: 20px;
+    border-radius:10px;
+    width:100%;
+    display: flex;
+}
+
+table {
+    min-width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table th, table td {
+    border: 1px solid #b0a3d1;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+table th {
+    background-color: #b0a3d1;
+    color: #ececec;
+}

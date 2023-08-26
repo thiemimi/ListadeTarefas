@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 1</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>TABELA</h1>
+        <div class="novatarefa"> 
+            <form action="#" method="get" onsubmit="return false">
+
+                <label for="descricao">Descrição</label>
+                <input type="text" name="nmDescrição" id="descricao" placeholder="Digite a descrição">
+                
+                <label for="autor">Autor</label>
+                <input type="text" name="nmAutor" id="autor" placeholder="Digite o autor">
+                
+                <label for="departamento">Departamento</label>
+                <input type="text" name="nmDepartanebti" id="departamento" placeholder="Digite o departamento">
+                
+                <label for="importancia">Importância</label>
+                <input type="number" name="nmImportância" id="importancia" placeholder="Digite a importância">
+
+                <label for="valor">Valor</label>
+                <input type="number" name="nmValor" id="valor" placeholder="Selecione o valor">
+
+                <label for="duracao">Duração</label>
+                <input type="number" name="nmduracao" id="duracao" placeholder="Selecione a duração">
+                
+                
+            </form>
+        </div>
+    
+        <button id="botao">Adicionar</button><br>
+        
+        <div class="tabelas">
+            <table border="1" id="tabela">
+                <thead>
+                    <tr>
+                        <th>Descriçaõ</th>
+                        <th>Autor</th>
+                        <th>Departamento</th>
+                        <th>Importância</th>
+                        <th>Valor</th>
+                        <th>Duração</th>
+                        <th>Excluir</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+            
+        </div>
+        <button id="ordenar">Ordenar por importância</button>
+        <div class="tabelas">
+            <table id="tabelaOrdenada">
+                <thead>
+                    <th>Descrição</th>
+                    <th>Importância</th>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
